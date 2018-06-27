@@ -1,0 +1,53 @@
+[33mcommit 03e5b42c6c11de22e316a5e140f0d26df47febf9[m
+Author: Austin Jiang <valour8@hotmail.com>
+Date:   Wed Jun 27 17:01:07 2018 +0900
+
+    Revert "Revert "tf tutorial""
+    
+    This reverts commit f2ca4f7bc51f28e529c16f1dcbeaeac818791790.
+    
+    Yes
+
+[33mcommit f2ca4f7bc51f28e529c16f1dcbeaeac818791790[m
+Author: Austin Jiang <valour8@hotmail.com>
+Date:   Wed Jun 27 16:55:38 2018 +0900
+
+    Revert "tf tutorial"
+    
+    This reverts commit 5efa544934a5108ebf7d560c56d72b0791ae280e.
+
+[33mcommit 5efa544934a5108ebf7d560c56d72b0791ae280e[m
+Author: “Austin <“valour8@hotmail.com”>
+Date:   Wed Jun 27 16:46:13 2018 +0900
+
+    tf tutorial
+
+[33mcommit 76d5f6ebc32b4554f95cce015648a44f3af99f47[m
+Author: “Austin <“valour8@hotmail.com”>
+Date:   Tue Jun 26 22:14:13 2018 +0900
+
+    cloned repository
+
+[33mcommit 15c1095c5b1b730652a16cd8f9a2d41579f100a3[m
+Author: “Austin <“valour8@hotmail.com”>
+Date:   Tue Jun 26 21:59:58 2018 +0900
+
+    delete
+
+[33mcommit eebe88880442ce98d19502c56d7378d5d216057a[m
+Author: “Austin <“valour8@hotmail.com”>
+Date:   Tue Jun 26 21:52:17 2018 +0900
+
+    test
+
+[33mcommit c288af100314ac246215fdc882327af9dd6a7efe[m
+Author: “Austin <“valour8@hotmail.com”>
+Date:   Tue Jun 26 21:44:47 2018 +0900
+
+    change the README, but the robot failed to find the solution, needs more intelligence way to solve it, eg, machine learning
+
+[33mcommit 8906fce7e383acebf34ff0c1734d5ea5b6512061[m
+Author: “Austin <“valour8@hotmail.com”>
+Date:   Tue Jun 26 16:32:31 2018 +0900
+
+    first commit
