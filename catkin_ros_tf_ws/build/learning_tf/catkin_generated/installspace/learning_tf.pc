@@ -1,0 +1,8 @@
+prefix=/home/austinj/Documents/gitRep/C_Robotics/catkin_ros_tf_ws/install
+
+Name: learning_tf
+Description: Description of learning_tf
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/austinj/Documents/gitRep/C_Robotics/catkin_ros_tf_ws/install/lib 
+Requires: 

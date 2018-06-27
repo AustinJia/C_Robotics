@@ -1,0 +1,2 @@
+learning_tf
+-DCATKIN_DEVEL_PREFIX=/home/austinj/Documents/gitRep/C_Robotics/catkin_ros_tf_ws/devel -DCMAKE_INSTALL_PREFIX=/home/austinj/Documents/gitRep/C_Robotics/catkin_ros_tf_ws/install -G Unix Makefiles
