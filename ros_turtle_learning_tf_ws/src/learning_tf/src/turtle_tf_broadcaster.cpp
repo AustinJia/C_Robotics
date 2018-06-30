@@ -1,6 +1,7 @@
 #include <ros/ros.h>
 #include <tf/transform_broadcaster.h>
 #include <turtlesim/Pose.h>
+#include <turtlesim/Spawn.h>
 
 std::string turtle_name;
 
@@ -26,6 +27,11 @@ int main(int argc, char** argv){
 
 	ros::NodeHandle node;
 	ros::Subscriber sub = node.subscribe(turtle_name+"/pose", 10, &poseCallback);
+
+	//ros::service::waitForService("spawn");
+  	//ros::ServiceClient add_turtle = node.serviceClient<turtlesim::Spawn>("spawn");
+  	//turtlesim::Spawn srv;
+  	//add_turtle.call(srv);
 
 	ros::spin();
 	return 0;

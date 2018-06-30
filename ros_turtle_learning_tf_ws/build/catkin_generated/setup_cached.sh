@@ -7,9 +7,6 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export LD_LIBRARY_PATH="/home/austinj/Documents/Programs/ws_moveit/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
+export PKG_CONFIG_PATH="/home/austinj/Documents/Programs/ws_moveit/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
 export PWD="/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/src:$ROS_PACKAGE_PATH"

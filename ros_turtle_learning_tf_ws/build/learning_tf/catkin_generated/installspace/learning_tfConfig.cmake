@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/install/lib;/home/austinj/Documents/Programs/ws_moveit/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/install/lib;/home/austinj/Documents/gitRep/C_Robotics/ros_turtle_learning_tf_ws/devel/lib;/home/austinj/Documents/Programs/ws_moveit/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
