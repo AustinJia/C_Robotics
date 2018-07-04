@@ -23,8 +23,10 @@ int main(int argc, char** argv){
   while (node.ok()){
     tf::StampedTransform transform;
     try{
-      listener.lookupTransform("/turtle2", "carrot1",
-                               ros::Time(0), transform);
+    	ros::Time now = ros::Time::now();
+    	ros::Time past = now - ros::Duration(5.0);
+    	listener.waitForTransform("/turtle2", now, "/turtle1", past, "world",ros::Duration(1.0));
+      	listener.lookupTransform("/turtle2", now, "/turtle1", past, "world", transform);
     }
     catch (tf::TransformException &ex) {
       ROS_ERROR("%s",ex.what());
@@ -37,7 +39,7 @@ int main(int argc, char** argv){
                                     transform.getOrigin().x());
     vel_msg.linear.x = 0.5 * sqrt(pow(transform.getOrigin().x(), 2) +
                                   pow(transform.getOrigin().y(), 2));
-    
+
     turtle_vel.publish(vel_msg);
 
     rate.sleep();

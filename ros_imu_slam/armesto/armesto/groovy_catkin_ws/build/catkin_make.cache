@@ -1,0 +1,2 @@
+armesto
+-DCATKIN_DEVEL_PREFIX=/home/austinj/Documents/gitRep/C_Robotics/ros_imu_slam/armesto/armesto/groovy_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/austinj/Documents/gitRep/C_Robotics/ros_imu_slam/armesto/armesto/groovy_catkin_ws/install -G Unix Makefiles

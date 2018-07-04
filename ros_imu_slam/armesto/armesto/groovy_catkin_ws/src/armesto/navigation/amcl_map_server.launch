@@ -1,0 +1,13 @@
+<launch>
+<node name="map_server" pkg="map_server" type="map_server" args="$(find armesto)/map/map.yaml"/>
+<node pkg="amcl" type="amcl" name="amcl" respawn="true">
+<remap from="scan" to="base_scan"/>
+<param name="initial_pose_x" value="0.0" /> 
+<param name="initial_pose_y" value="0.0" />
+<param name="initial_pose_a" value="0.0" />
+<param name="odom_model_type" value="diff"/>
+<param name="odom_frame_id" value="odom"/>
+<param name="min_particles" value="100"/>
+<param name="max_particles" value="1000"/>
+</node>
+</launch>

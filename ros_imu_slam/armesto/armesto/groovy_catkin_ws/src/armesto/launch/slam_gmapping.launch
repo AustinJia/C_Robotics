@@ -1,0 +1,17 @@
+<launch>
+<node pkg="gmapping" type="slam_gmapping" name="slam_gmapping" output="screen">
+<rosparam>
+odom_frame: odom
+map_update_interval: 30.0
+maxUrange: 8.0
+particles: 80
+xmin: -8.0
+ymin: -8.0
+xmax: 8.0
+ymax: 8.0
+delta: 0.05
+base_frame: base_link
+</rosparam>
+<remap from="scan" to="base_scan"/>
+</node>
+</launch>
